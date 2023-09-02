@@ -1,32 +1,34 @@
-# Freelance Developer Portfolio Website
+# Hemaka Pamodya's Portfolio Website
 
-This is a freelance developer portfolio website built using **HTML 5**, **CSS 3** and **Bootstrap 5**. The map is created using **Leaflet 1.9**.
-
-![plot](https://github.com/BobsProgrammingAcademy/portfolio-website-bootstrap-5/blob/master/images/theme.png?raw=true)
+Welcome to my portfolio website, showcasing my work as a freelance developer. This website is built using **HTML 5**, **CSS 3**, and **Bootstrap 5**. The interactive map is created using **Leaflet 1.9**.
 
 ## Table of Contents 
 - [Prerequisites](#prerequisites)
-- [Running the application](#run-the-application)
-- [Copyright and License](#copyright-and-license)
+- [Running the Application](#running-the-application)
+- [License](#license)
 
 ### Prerequisites
 
-Install the following prerequisites:
+Before running the website, ensure you have the following prerequisites installed:
 
 * [Visual Studio Code](https://code.visualstudio.com/download) with the **Live Server** extension.
 
-**Live Server** allows us to launch a local development server that enables a live reload of our project.
+**Live Server** enables us to launch a local development server with live reloading, making the development process smoother.
 
-### Run the application
+### Running the Application
 
-To run the application, start the **Live Server** by clicking **Go Live** in the bottom right corner of the status bar in Visual Studio Code. This action will load the website in your default web browser. 
+To run the application, follow these steps:
 
-![plot](https://github.com/BobsProgrammingAcademy/portfolio-website-bootstrap-5/blob/master/images/vscode.png?raw=true)
+1. Open the project in Visual Studio Code.
+2. Install the **Live Server** extension if you haven't already.
+3. Click **Go Live** in the bottom right corner of the status bar in Visual Studio Code. This will launch a local development server and open the website in your default web browser.
 
-### View the application
 
-Once the **Live Server** is up and running, go to http://127.0.0.1:5500/index.html to view the application.
+### Viewing the Application
 
-### Copyright and License
+Once the **Live Server** is running, you can view the website by navigating to http://127.0.0.1:5500/index.html in your web browser.
 
-Copyright © 2022 Bob's Programming Academy. Code released under the MIT license.
+### License
+
+Copyright © 2023 Hemaka.
+
