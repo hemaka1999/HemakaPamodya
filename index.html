@@ -41,106 +41,88 @@
   </head>
   <body>
     <div class="container-fluid px-0">
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light shadow" style="background-color: aliceblue !important; ">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/">
-            <span class="material-icons-outlined me-1">person</span>
-            Portfolio
-          </a>
-          <button
-            type="button"
-            class="navbar-toggler"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="container px-3">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link me-lg-3" href="/">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link me-lg-3" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link me-lg-3" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link me-lg-3" href="#resume"
-                    >Resume</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link me-lg-3" href="#contact">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </nav>
-      <!-- End Navbar -->
+
+      <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">ARIfolio</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#projects">Project</a></li>
+          <li><a class="nav-link scrollto " href="#resume">Resume</a></li>
+          <li><a class="nav-link scrollto " href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
 
 
-            <!-- Home -->
-
-      <section class="home" style=" background: url('../assets/bck1.jpg') !important;z-index:99999;">
+      <!-- ======= Hero Section ======= -->
+  <div id="hero" class="hero route bg-image" style="background-image: url(assets/bck1.jpg)">
+    <div class="overlay-itro"></div>
+    <div class="hero-content display-table">
+      <div class="table-cell">
         <header class="light py-5" >
-          <div class="container px-5">
+          <div class="container px-5" ">
             <div class="row align-items-center">
               <div class="col-lg-8 col-xl-7 col-xxl-6">
-                <div class="my-5">
+                <div class="my-5" style="margin: 150px 10px 10px 10px !important;">
                   <h2 class="text-center fw-bold mb-2">Hi! I am Hemaka Pamodya,</h2>
                   
                     <h3 class="text-primary text-center fw-bold mb-2"><span class="auto-type"></span></h3>
                   
-                  <p class="lead text-muted mb-4">
-                    I specialize in building web applications using React and
-                    Django. Scroll down to see what I have been working on.
+                  <p class="lead text-muted mb-4" style="color: black !important; font-style: italic; font-weight: 500;">
+                    I specialize in building web applications and
+                    mobile application. Scroll down to see what I have been working on.
                   </p>
                   <div class="d-grid gap-3 d-sm-flex justify-content-center">
                     <a
                       class="btn btn-primary btn-large text-uppercase"
                       href="#about"
                     >
-                      Learn More
+                      About me...
                       <span class="material-icons-outlined ms-2"
-                        >help_outline</span
+                        ><span class="material-symbols-outlined">
+                          
+                          </span>emoji_people</span
                       >
                     </a>
                     <a
                       class="btn btn-outline-primary btn-large text-uppercase"
                       href="#projects"
                     >
-                      View My Work
+                      Projects
                       <span class="material-icons-outlined ms-2"
-                        >manage_search</span
+                        >code</span
                       >
                     </a>
                   </div>
                 </div>
               </div>
-              <div class="col-xl-5 col-xxl-6 justify-content-center">
+              <!-- <div class="col-xl-5 col-xxl-6 justify-content-center">
                 <img
                   class="img-fluid rounded-3 my-5"
                   src="assets/bck1.jpg"
                   alt="Hero Image"
                 >
-              </div>
+              </div> -->
             </div>
           </div>
         </header>
 
-      </section>
+      </div>
+    </div>
+  </div><!-- End Hero Section -->
 
-
-      
-      <!-- End Home -->
+            
 
       <main>
         <!-- ======= About Section ======= -->
@@ -167,7 +149,7 @@
             <div class="col-lg-6">
               <ul>
                 <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>2 October 1999</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
+                <!-- <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>https://hemaka1999.github.io/HemakaPamodya/</span></li> -->
                 <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+94 76 87 89 262</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Gampaha, Sri Lanka</span></li>
               </ul>
@@ -177,14 +159,14 @@
                 <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>24</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span></span>BSc.(Hons) in Computing & Information Systems</li>
                 <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>hemaka1999@gmail.com</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                <!-- <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li> -->
               </ul>
             </div>
           </div>
           <p>
-            Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-            Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
-          </p>
+            Hello! I'm Hemaka Pamodya Ariyasinghe, an enthusiastic undergraduate at Sabaragamuwa University, specializing in Computing & Information Systems. With a passion for web development, Flutter mobile app development, and networking, I'm poised to transform your digital ideas into reality.
+My journey into the world of computing has allowed me to create a diverse range of projects, including web applications and mobile apps. As I progress in my studies and explore new horizons, I'm excited to make an impact in the fields of web and mobile application development.
+            </p>
         </div>
       </div>
 
@@ -235,7 +217,7 @@
           </div>
 
           <div class="progress">
-            <span class="skill">Firebase <i class="val">40%</i></span>
+            <span class="skill">React <i class="val">40%</i></span>
             <div class="progress-bar-wrap">
               <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
@@ -272,27 +254,28 @@
                 <div class="card h-100 shadow-lg border-0 bg-light">
                   <img
                     class="card-img-top"
-                    src="images/project1.png"
+                    src="assets/blog.png"
                     alt="Project 1"
                   >
                   <div class="card-body p-4">
-                    <h5 class="card-title mb-3">Cryptocurrency Dashboard</h5>
+                    <h5 class="card-title mb-3">EcoHarvest Blog</h5>
                     <div class="mb-2">
-                      <div class="badge bg-primary rounded-pill">Django</div>
-                      <div class="badge bg-primary rounded-pill">React</div>
+                      <div class="badge bg-primary rounded-pill">Laravel</div>
+                      <div class="badge bg-primary rounded-pill">Filament</div>
                       <div class="badge bg-primary rounded-pill">
-                        Material UI
+                        MySQL
                       </div>
                     </div>
                     <p class="card-text">
-                      A cryptocurrency dashboard app built using React 17,
-                      Material UI 5 and Chart.js 3.
+                      A dynamic blog website using Laravel 10 and integrated the powerful Filament PHP admin panel for effortless 
+                      content management. 
+                      Users can create, edit, and manage blog posts with ease, with Filament's user-friendly interface
                     </p>
                   </div>
                   <div class="card-footer bg-transparent mb-3">
                     <a
                       class="btn btn-outline-primary btn-sm text-uppercase"
-                      href="https://github.com/BobsProgrammingAcademy/cryptocurrency-dashboard"
+                      href="https://github.com/hemaka1999/BlogLaravel.git"
                       target="_blank"
                     >
                       <span class="material-icons-outlined me-1">code</span>
@@ -305,28 +288,28 @@
                 <div class="card h-100 shadow-lg border-0 bg-light">
                   <img
                     class="card-img-top"
-                    src="images/project2.png"
+                    src="assets/ARIMovie.png"
                     alt="Project 2"
                   >
                   <div class="card-body p-4">
-                    <h5 class="card-title mb-3">Portfolio Website</h5>
+                    <h5 class="card-title mb-3">ARIMovie Website</h5>
                     <div class="mb-2">
-                      <div class="badge bg-primary rounded-pill">Django</div>
                       <div class="badge bg-primary rounded-pill">React</div>
+                      <div class="badge bg-primary rounded-pill">JavaScript</div>
                       <div class="badge bg-primary rounded-pill">
-                        Material UI
+                        CSS
                       </div>
                     </div>
                     <p class="card-text">
-                      A portfolio website built using Django 3, Next.js 12 and
-                      Material UI 5 that uses a PostgreSQL database to store
-                      data.
+                      The 'ARIMovie' web application using the React framework, 
+                      this web application seamlessly integrates with the OMDb API, allowing 
+                      users to explore and search for movies by title.
                     </p>
                   </div>
                   <div class="card-footer bg-transparent mb-3">
                     <a
                       class="btn btn-outline-primary btn-sm text-uppercase"
-                      href="https://github.com/BobsProgrammingAcademy/portfolio-website"
+                      href="https://github.com/hemaka1999/ARIMovie-Application.git"
                       target="_blank"
                     >
                       <span class="material-icons-outlined me-1">code</span>
@@ -339,27 +322,30 @@
                 <div class="card h-100 shadow-lg border-0 bg-light">
                   <img
                     class="card-img-top"
-                    src="images/project3.png"
+                    src="assets/QR application.png"
                     alt="Project 3"
                   >
                   <div class="card-body p-4">
-                    <h5 class="card-title mb-3">Image Classification</h5>
+                    <h5 class="card-title mb-3">Univerity Attendance System(QR scanning mobile
+                      application)</h5>
                     <div class="mb-2">
-                      <div class="badge bg-primary rounded-pill">Django</div>
-                      <div class="badge bg-primary rounded-pill">React</div>
+                      <div class="badge bg-primary rounded-pill">Flutter</div>
+                      <div class="badge bg-primary rounded-pill">Node.js</div>
                       <div class="badge bg-primary rounded-pill">
-                        Material UI
+                        MySQL
                       </div>
                     </div>
                     <p class="card-text">
-                      An image classification app built using TensorFlow 2,
-                      Django 3, React 17 and Material UI 5.
+                      A university attendance app using Flutter, streamlining attendance 
+                      tracking. Students scan QR codes for lectures and access key features like profile 
+                      updates and lecture history. The app's backend is managed securely Node.js with 
+                      MySQL for account management
                     </p>
                   </div>
                   <div class="card-footer bg-transparent mb-3">
                     <a
                       class="btn btn-outline-primary btn-sm text-uppercase"
-                      href="https://github.com/BobsProgrammingAcademy/image-classification-mnist"
+                      href="https://github.com/hemaka1999/universityAttendanceTest1.git"
                       target="_blank"
                     >
                       <span class="material-icons-outlined me-1">code</span>
@@ -368,6 +354,7 @@
                   </div>
                 </div>
               </div>
+              
             </div>
           </div>
         </section>
@@ -430,7 +417,7 @@
             <div class="row justify-content-center">
               <h2 class="fw-bold">Contact</h2>
               <p class="lead text-muted mb-5">
-                Do you need a full-stack web developer? I would love to hear
+                Do you need web developer or mobile app developer? I would love to hear
                 from you.
               </p>
             </div>
