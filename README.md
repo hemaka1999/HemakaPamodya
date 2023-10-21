@@ -25,10 +25,20 @@ To run the application, follow these steps:
 
 
 ### Viewing the Application
+<<<<<<< HEAD
 
 Once the **Live Server** is running, you can view the website by navigating to http://127.0.0.1:5500/index.html in your web browser.
 
 ### License
 
 Copyright © 2023 Hemaka.
+=======
+
+Once the **Live Server** is running, you can view the website by navigating to http://127.0.0.1:5500/index.html in your web browser.
+
+### License
+
+Copyright © 2023 Hemaka.
+
+>>>>>>> 62e35849d60bb05508f468199ccd975971872eb6
 
